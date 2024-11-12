@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.TreeSet;
 
-public class Exercise07 {
+public class Exercise07And08 {
     public static void main(String[] args) {
         HashSet<String> names=new HashSet<>();
         names.add("Erik");
@@ -14,8 +14,8 @@ public class Exercise07 {
         names.add("Peter");
         names.add("Anna");
 
-        ArrayList<String> namesList=new ArrayList<>();
-        namesList.addAll(names);
+        ArrayList<String> namesList=new ArrayList<>(names);
+
         System.out.println("namesList = " + namesList);
 
         Collections.sort(namesList);

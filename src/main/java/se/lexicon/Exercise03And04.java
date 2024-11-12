@@ -3,7 +3,7 @@ package se.lexicon;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Exercise03 {
+public class Exercise03And04 {
     public static void main(String[] args) {
         List<String> days=new ArrayList<>();
         days.add("Sunday");

@@ -1,10 +1,9 @@
 package se.lexicon;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
-public class Exercise01 {
+public class Exercise01And02 {
     public static void main(String[] args) {
         List<String> days=new ArrayList<>();
         days.add("Sunday");
@@ -16,10 +15,12 @@ public class Exercise01 {
         days.add("Saturday");
         System.out.println("days = " + days);
 
-        Iterator<String> itr= days.iterator();
+      /*  Iterator<String> itr= days.iterator();
         while(itr.hasNext()){
             System.out.println(itr.next());
-        }
+        }*/
+
+        days.forEach(System.out::println);
         
     }
 }

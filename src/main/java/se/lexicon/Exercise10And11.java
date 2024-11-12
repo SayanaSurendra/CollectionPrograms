@@ -3,7 +3,7 @@ package se.lexicon;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Exercise09And10 {
+public class Exercise10And11 {
     public static void main(String[] args) {
         Map<Integer,String> cars=new HashMap<>();
         cars.put(1,"Volvo");
@@ -17,7 +17,7 @@ public class Exercise09And10 {
 
         for(Map.Entry<Integer,String> keys: cars.entrySet()){
             System.out.println("key = " + keys.getKey());
-            System.out.println("Values = " + keys.getValue());
+            System.out.println("Value = " + keys.getValue());
         }
     }
 }
